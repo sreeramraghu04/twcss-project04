@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xs: "370px",
+            // => @media (min-width: 370px) { ... }
+
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {},
+          },
+        },
+      };
+    </script>
+    <title>interior design site</title>
+  </head>
+  <body>
+    <div>
+      <div class="absolute z-[-1]">
+        <img
+          src="/images/photo_2025-01-28_10-25-50.jpg"
+          alt=""
+          class="w-[100vw] h-[100vh] object-cover"
+        />
+      </div>
+      <nav class="h-20">
+        <div class="lg:px-20 md:px-10 sm:px-10 xs:px-10 py-3 flex items-center justify-between">
+          <!--left-->
+          <div class="flex items-center">
+            <h1 class="text-4xl font-bold text-blue-900">Logo</h1>
+          </div>
+          <!--right-->
+          <div
+            class="flex items-center text-1xl gap-20 font-bold border-b-4 border-blue-900 py-4 text-blue-900"
+          >
+            <div class="hover:cursor-pointer lg:flex md:hidden sm:hidden xs:hidden">
+              About Us
+            </div>
+            <div class="hover:cursor-pointer lg:flex md:hidden sm:hidden xs:hidden">
+              Benefits
+            </div>
+            <div class="hover:cursor-pointer lg:flex md:hidden sm:hidden xs:hidden">
+              Projects
+            </div>
+            <div class="hover:cursor-pointer lg:flex md:hidden sm:hidden xs:hidden">
+              Stages
+            </div>
+            <div class="hover:cursor-pointer lh:flex md:hidden sm:hidden xs:hidden">
+              Services
+            </div>
+            <div class="flex items-center">
+              <i
+                class="fa-solid fa-phone-volume text-2xl pr-2 hover:cursor-pointer"
+              ></i>
+              <div>
+                <h4>Call Us</h4>
+                <h4>+123 456 789</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="px-20 py-32 w-1/2">
+        <!--left-->
+        <section
+          class="font-bold text-blue-900 lg:text-6xl md:text-4xl sm:text-2xl xs:text-3xl lg:w-[600px] md:w-[400px] sm:w-[300px] xs:w-[400px]"
+        >
+          <div>
+            <h1>Interior Design That Care About Details</h1>
+          </div>
+        </section>
+        <div
+          class="mt-20 text-blue-900 border-blue-900 border-2  font-semibold lg:text-xl px-3 py-2 lg:w-[140px] rounded-full hover:cursor-pointer xs:mt-8 xs:w-[100px] xs:text-sm"
+        >
+          Learn More
+        </div>
+        <!--right-->
+        <section class="absolute right-60 top-40 lg:flex md:hidden sm:hidden xs:hidden">
+          <!--one-->
+          <div class="bg-gray-400 w-[230px] py-2 px-2">
+            <i
+              class="fa-solid fa-puzzle-piece bg-gray-200 px-3 py-2 border-black border-2 rounded-xl"
+            ></i>
+            <div class="px-2 py-2 font-semibold">
+              We create your space better based on your own idea
+            </div>
+          </div>
+        </section>
+        <section
+          class="absolute right-80 top-100 lg:flex md:hidden sm:hidden xs:hidden"
+        >
+          <!--two-->
+          <div class="bg-gray-400 w-[230px] py-2 px-2">
+            <i
+              class="fa-regular fa-lightbulb bg-gray-200 px-3 py-2 border-black border-2 rounded-xl"
+            ></i>
+            <div class="px-2 py-2 font-semibold">
+              Innovation, ideas, stylish design for home and business
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
