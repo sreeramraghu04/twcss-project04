@@ -9,7 +9,7 @@
 
 ---
 
-## sample page
+## Sample Screen
 
 - full screen
   ![alt text](lg.png)
