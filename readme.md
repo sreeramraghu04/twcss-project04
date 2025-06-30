@@ -7,6 +7,8 @@
 - **Stages**: A simple, responsive form for inquiries, with clean input fields and a submit button.
 - **Contact Bar**: A simple, responsive form for inquiries, with clean input fields and a submit button.
 
+---
+
 ## sample page
 
 - full screen
